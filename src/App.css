@@ -105,9 +105,11 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 17%;
 }
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -636,3 +638,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+/************ Media Queries ************/
+
+/* Logo sizing start */
+@media (min-width: 768px) {
+  nav.navbar a.navbar-brand {
+    width: 13%;
+  }
+}
+
+@media (min-width: 992px) {
+  nav.navbar a.navbar-brand {
+    width: 9%;
+  }
+}
+/* Logo sizing end */
