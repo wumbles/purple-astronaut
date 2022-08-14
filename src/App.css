@@ -649,7 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (min-width: 992px) {
   nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 11%;
   }
 }
 /* Logo sizing end */
