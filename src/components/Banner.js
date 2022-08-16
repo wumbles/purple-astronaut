@@ -49,7 +49,7 @@ export const Banner = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <button onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle size={25} />
+              I've seen enough. <ArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
