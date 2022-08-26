@@ -65,6 +65,7 @@ a:hover {
 img {
   width: 100%;
   height: auto;
+  pointer-events: none;
 }
 
 button {
@@ -359,6 +360,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+#node-logo {
+  padding-top: 20px;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -625,3 +630,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 /* Logo sizing end */
+
+@media (min-width: 768px) {
+  #node-logo {
+    padding-top: 35px;
+  }
+}

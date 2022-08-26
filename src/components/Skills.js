@@ -1,11 +1,14 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import reactLogo from "../assets/img/react-logo.svg";
-import nodeLogo from "../assets/img/node-logo.svg";
-import bootstrapLogo from "../assets/img/bootstrap-logo.png";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import htmlLogo from "../assets/img/html-logo-img.png";
+import bootstrapLogo from "../assets/img/bootstrap-icon.png";
+import nodeLogo from "../assets/img/node-logo-img.png";
+import reactLogo from "../assets/img/react-logo-img.png";
+import cssLogo from "../assets/img/css-logo-img.png";
+import scssLogo from "../assets/img/scss-logo-img.png";
+import tsLogo from "../assets/img/typescript-logo-img.png";
+import tailwindLogo from "../assets/img/tailwind-logo-img.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -51,7 +54,7 @@ export const Skills = () => {
                     <h5>React</h5>
                   </div>
                   <div className="item">
-                    <img src={nodeLogo} alt="Image" />
+                    <img src={nodeLogo} alt="Image" id="node-logo" />
                     <h5>NodeJS</h5>
                   </div>
                   <div className="item">
@@ -59,8 +62,20 @@ export const Skills = () => {
                     <h5>Bootstrap</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
-                    <h5>Swag Percent</h5>
+                    <img src={tsLogo} alt="Image" />
+                    <h5>TypeScript</h5>
+                  </div>
+                  <div className="item">
+                    <img src={tailwindLogo} alt="Image" />
+                    <h5>Tailwind CSS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={scssLogo} alt="Image" />
+                    <h5>SCSS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={htmlLogo} alt="Image" />
+                    <h5>HTML5</h5>
                   </div>
                 </Carousel>
               </p>
