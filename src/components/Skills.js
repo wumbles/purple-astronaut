@@ -1,11 +1,9 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import htmlLogo from "../assets/img/html-logo-img.png";
 import bootstrapLogo from "../assets/img/bootstrap-icon.png";
 import nodeLogo from "../assets/img/node-logo-img.png";
 import reactLogo from "../assets/img/react-logo-img.png";
-import cssLogo from "../assets/img/css-logo-img.png";
 import scssLogo from "../assets/img/scss-logo-img.png";
 import tsLogo from "../assets/img/typescript-logo-img.png";
 import tailwindLogo from "../assets/img/tailwind-logo-img.png";
@@ -72,10 +70,6 @@ export const Skills = () => {
                   <div className="item">
                     <img src={scssLogo} alt="Image" />
                     <h5>SCSS</h5>
-                  </div>
-                  <div className="item">
-                    <img src={htmlLogo} alt="Image" />
-                    <h5>HTML5</h5>
                   </div>
                 </Carousel>
               </p>
