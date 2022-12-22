@@ -52,7 +52,7 @@ export const Banner = () => {
               I've seen enough. <ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={5} className="pt-5">
             <img src={headerImg} alt="Header Img" />
           </Col>
         </Row>
