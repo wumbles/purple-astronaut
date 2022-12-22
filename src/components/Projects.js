@@ -47,7 +47,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="second">WordPress</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Miscellaneous</Nav.Link>
+                  <Nav.Link eventKey="third">Misc.</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
