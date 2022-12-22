@@ -50,7 +50,7 @@ export const Banner = () => {
               most familiar with, and I am learning new stuff every day.
               <br />
               <br />
-              Thanks for visiting!
+              Thank you for visiting!
             </p>
             <button
               onClick={() =>

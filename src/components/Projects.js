@@ -41,13 +41,13 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">React Projects</Nav.Link>
+                  <Nav.Link eventKey="first">React</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">WordPress Projects</Nav.Link>
+                  <Nav.Link eventKey="second">WordPress</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">Miscellaneous</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
