@@ -67,11 +67,11 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Projects</h2>
-            <p>
+            <h2 className="pb-4">Projects</h2>
+            {/* <p>
               The following are some projects I've created that are separated by
               what technologies I primarily used at the time.
-            </p>
+            </p> */}
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

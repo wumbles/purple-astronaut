@@ -41,14 +41,14 @@ export const Banner = () => {
             </h1>
             <p>
               I'm 22 years old and reside in Utah. I've been studying web
-              development for 4+ years. I originally began with working with the
+              development for 4+ years. I originally began working with the
               WordPress platform professionally, and later I attended a coding
               bootcamp on my own time after I took interest in switching to
-              React.
+              React around 2 years ago.
               <br />
               <br />
-              Below are links to some projects and technologies I am the most
-              familiar with, and I am learning something new every day.
+              Down below, you can find links to projects I've worked on and
+              technologies I am the most familiar with.
               <br />
               <br />
               Thanks for visiting!
