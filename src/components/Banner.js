@@ -40,14 +40,14 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              I'm 22 years old and based out of Utah. I've been in web
-              development for 4 years. Originally began with the WordPress
-              platform, but I've started to move towards coding in React on my
+              I'm 22 years old and reside in Utah. I've been in web development
+              for 4 years. Originally began with the WordPress platform
+              professionally, and I've started to focus on coding in React on my
               own time for the last 2 years.
               <br />
               <br />
               Down below are links to some projects and technologies I am the
-              most familiar with, and I am learning new stuff every day.
+              most familiar with, and I am learning something new every day.
               <br />
               <br />
               Thank you for visiting!
@@ -57,7 +57,7 @@ export const Banner = () => {
                 (window.location = "mailto:lucasmartinsen@gmail.com")
               }
             >
-              I've seen enough. <ArrowRightCircle size={25} />
+              I've seen enough already. <ArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5} className="pt-5">

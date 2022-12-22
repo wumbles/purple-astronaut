@@ -1,26 +1,64 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import githubThumbnail from "../assets/img/github-finder-thumbnail.png";
+import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
+import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
+import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Lucas Project #1",
-      description: "React, TypeScript, NodeJS, TailwindCSS",
-      imgUrl: projImg1,
+      title: "Github User Finder",
+      description: "React, Github API, Tailwind, DaisyUI",
+      imgUrl: githubThumbnail,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Lucas Project #2",
+      description: "React",
+      imgUrl: githubThumbnail,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Lucas Project #3",
+      description: "React",
+      imgUrl: githubThumbnail,
+    },
+  ];
+
+  const projectsSecondTab = [
+    {
+      title: "Chronic Migraine",
+      description: "WordPress, Elementor, GA4",
+      imgUrl: migraineThumbnail,
+    },
+    {
+      title: "Spotlight RSV",
+      description: "WordPress, Elementor, GA4",
+      imgUrl: spotlightThumbnail,
+    },
+
+    {
+      title: "Alzheimer's Disease",
+      description: "WordPress, Elementor, GA4",
+      imgUrl: memoryThumbnail,
+    },
+  ];
+
+  const projectsThirdTab = [
+    {
+      title: "Misc",
+      description: "misc",
+      imgUrl: githubThumbnail,
+    },
+    {
+      title: "Misc",
+      description: "misc",
+      imgUrl: githubThumbnail,
+    },
+    {
+      title: "Misc",
+      description: "misc",
+      imgUrl: githubThumbnail,
     },
   ];
 
@@ -32,7 +70,7 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>
               The following are some projects I've created that are separated by
-              what platform I primarily used at the time.
+              what technologies I primarily used at the time.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
@@ -59,20 +97,18 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
-                  </p>
+                  <Row>
+                    {projectsSecondTab.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
-                  </p>
+                  <Row>
+                    {projects.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>

@@ -278,15 +278,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #b8b8b8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   width: 96%;
 }
 .banner button {
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
@@ -362,6 +362,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 #node-logo {
   padding-top: 20px;
+}
+#tailwind-logo {
+  padding-top: 42px;
 }
 
 /************ Projects Css ************/
@@ -442,6 +445,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 100%;
 }
 .proj-imgbx::before {
   content: "";
@@ -490,7 +494,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 200px 0 200px 0;
@@ -643,5 +647,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (min-width: 768px) {
   #node-logo {
     padding-top: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #tailwind-logo {
+    padding-top: 60px;
   }
 }

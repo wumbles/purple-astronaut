@@ -51,20 +51,20 @@ export const Skills = () => {
                     <h5>React</h5>
                   </div>
                   <div className="item">
-                    <img src={nodeLogo} alt="Image" id="node-logo" />
-                    <h5>NodeJS</h5>
-                  </div>
-                  <div className="item">
-                    <img src={bootstrapLogo} alt="Image" />
-                    <h5>Bootstrap</h5>
-                  </div>
-                  <div className="item">
                     <img src={tsLogo} alt="Image" />
                     <h5>TypeScript</h5>
                   </div>
                   <div className="item">
-                    <img src={tailwindLogo} alt="Image" />
-                    <h5>Tailwind CSS</h5>
+                    <img src={tailwindLogo} alt="Image" id="tailwind-logo" />
+                    <h5>Tailwind</h5>
+                  </div>
+                  <div className="item">
+                    <img src={nodeLogo} alt="Image" id="node-logo" />
+                    <h5>Node</h5>
+                  </div>
+                  <div className="item">
+                    <img src={bootstrapLogo} alt="Image" />
+                    <h5>Bootstrap</h5>
                   </div>
                   <div className="item">
                     <img src={scssLogo} alt="Image" />
