@@ -48,7 +48,11 @@ export const Banner = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button onClick={() => console.log("connect")}>
+            <button
+              onClick={() =>
+                (window.location = "mailto:lucasmartinsen@gmail.com")
+              }
+            >
               I've seen enough. <ArrowRightCircle size={25} />
             </button>
           </Col>
