@@ -32,7 +32,7 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline"> Welcome to my Portfolio</span>
+            <span className="tagline"> Welcome to My Portfolio</span>
             <h1>
               {"Hi I'm Lucas, "}
               <span className="wrap">
@@ -40,13 +40,17 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I'm 22 years old and based out of Utah. I've been in web
+              development for 4 years. Originally began with the WordPress
+              platform, but I've started to move towards coding in React on my
+              own time for the last 2 years.
+              <br />
+              <br />
+              Down below are links to some projects and technologies I am the
+              most familiar with, and I am learning new stuff every day.
+              <br />
+              <br />
+              Thanks for visiting!
             </p>
             <button
               onClick={() =>

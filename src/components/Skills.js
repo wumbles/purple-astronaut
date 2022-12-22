@@ -12,7 +12,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -38,10 +37,10 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Blandit volutpat maecenas volutpat blandit. Erat nam at lectus
-                urna duis convallis convallis tellus id.
+                urna duis convallis convallis tellus id. */}
                 <Carousel
                   responsive={responsive}
                   infinite={true}
