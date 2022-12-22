@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const [loopNum] = useState(0);
-  const toRotate = ["Web Developer."];
+  const toRotate = ["Web Developer"];
   const [text, setText] = useState("");
   const [delta] = useState(400 - Math.random() * 100);
 
@@ -34,23 +34,24 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline"> Welcome to My Portfolio</span>
             <h1>
-              {"Hi I'm Lucas, "}
+              {"Lucas Martinsen, "}
               <span className="wrap">
                 <br /> {text}
               </span>
             </h1>
             <p>
-              I'm 22 years old and reside in Utah. I've been in web development
-              for 4 years. Originally began with the WordPress platform
-              professionally, and I've started to focus on coding in React on my
-              own time for the last 2 years.
+              I'm 22 years old and reside in Utah. I've been studying web
+              development for 4+ years. I originally began with working with the
+              WordPress platform professionally, and later I attended a coding
+              bootcamp on my own time after I took interest in switching to
+              React.
               <br />
               <br />
-              Down below are links to some projects and technologies I am the
-              most familiar with, and I am learning something new every day.
+              Below are links to some projects and technologies I am the most
+              familiar with, and I am learning something new every day.
               <br />
               <br />
-              Thank you for visiting!
+              Thanks for visiting!
             </p>
             <button
               onClick={() =>
