@@ -5,6 +5,7 @@ import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
 import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
+import placeholderThumbnail from "../assets/img/placeholderThumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -22,7 +23,7 @@ export const Projects = () => {
     {
       title: "Lucas Project #3",
       description: "React",
-      imgUrl: githubThumbnail,
+      imgUrl: placeholderThumbnail,
     },
   ];
 
@@ -49,17 +50,17 @@ export const Projects = () => {
     {
       title: "Misc",
       description: "misc",
-      imgUrl: githubThumbnail,
+      imgUrl: placeholderThumbnail,
     },
     {
       title: "Misc",
       description: "misc",
-      imgUrl: githubThumbnail,
+      imgUrl: placeholderThumbnail,
     },
     {
       title: "Misc",
       description: "misc",
-      imgUrl: githubThumbnail,
+      imgUrl: placeholderThumbnail,
     },
   ];
 
@@ -106,7 +107,7 @@ export const Projects = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <Row>
-                    {projects.map((project, index) => {
+                    {projectsThirdTab.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
