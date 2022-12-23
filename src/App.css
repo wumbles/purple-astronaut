@@ -251,13 +251,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
-  padding: 150px 0 100px 0;
-  background-image: url("./assets/img/banner-bg.png");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 50px;
 }
+
+@media (min-width: 768px) {
+  .banner {
+    margin-top: 0;
+    padding: 150px 0 100px 0;
+    background-image: url("./assets/img/banner-bg.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
