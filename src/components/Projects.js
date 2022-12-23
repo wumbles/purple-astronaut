@@ -1,9 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import githubThumbnail from "../assets/img/github-finder-thumbnail.png";
+import githubThumbnail2 from "../assets/img/github-finder-thumbnail-2.png";
 import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
+import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -14,9 +16,9 @@ export const Projects = () => {
       imgUrl: githubThumbnail,
     },
     {
-      title: "Lucas Project #2",
-      description: "React",
-      imgUrl: githubThumbnail,
+      title: "Nucampsite",
+      description: "React, Redux, Formik, Reactstrap",
+      imgUrl: nucampThumbnail,
     },
     {
       title: "Lucas Project #3",
