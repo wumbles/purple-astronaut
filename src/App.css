@@ -94,14 +94,18 @@ p.danger {
   color: red;
 }
 /************ Navbar Css ************/
-nav.navbar {
-  padding: 18px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-  transition: 0.32s ease-in-out;
+@media (min-width: 768px) {
+  nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    background-color: transparent;
+  }
 }
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;

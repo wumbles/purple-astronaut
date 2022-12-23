@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import githubThumbnail from "../assets/img/github-finder-thumbnail.png";
-import githubThumbnail2 from "../assets/img/github-finder-thumbnail-2.png";
 import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
@@ -65,7 +64,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
