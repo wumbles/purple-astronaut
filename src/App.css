@@ -333,7 +333,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 .banner button svg {
   font-size: 25px;
