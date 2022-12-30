@@ -294,17 +294,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 16px;
   display: inline-block;
 }
+
+@media (min-width: 768px) {
+  .banner h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+
 .banner h1 {
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
+  font-size: 35px;
+}
+
+@media (min-width: 768px) {
+  .banner p {
+    color: #b8b8b8;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.4em;
+    width: 96%;
+  }
 }
 .banner p {
   color: #b8b8b8;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.4em;
   width: 96%;
