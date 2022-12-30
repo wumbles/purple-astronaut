@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
@@ -53,13 +53,13 @@ export const Banner = () => {
               <br />
               Thanks for visiting!
             </p>
-            <button
+            {/* <button
               onClick={() =>
                 (window.location = "mailto:lucasmartinsen@gmail.com")
               }
             >
               I'm interested already. <ArrowRightCircle size={25} />
-            </button>
+            </button> */}
           </Col>
           <Col xs={12} md={6} xl={5} className="pt-5 pb-5">
             <img src={headerImg} alt="Header Img" />

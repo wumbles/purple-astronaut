@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  font-size: 35px;
+  font-size: 34px;
 }
 @media (min-width: 768px) {
   .banner h1 {
@@ -333,7 +333,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
-  align-items: left;
+  align-items: center;
+  justify-content: left;
 }
 .banner button svg {
   font-size: 25px;
