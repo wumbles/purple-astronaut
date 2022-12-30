@@ -58,7 +58,7 @@ export const Banner = () => {
                 (window.location = "mailto:lucasmartinsen@gmail.com")
               }
             >
-              I've seen enough already. <ArrowRightCircle size={25} />
+              I'm interested already. <ArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5} className="pt-5 pb-5">

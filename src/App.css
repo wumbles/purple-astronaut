@@ -295,6 +295,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
+.banner h1 {
+  font-size: 35px;
+}
 @media (min-width: 768px) {
   .banner h1 {
     font-size: 55px;
@@ -306,8 +309,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.banner h1 {
-  font-size: 35px;
+.banner p {
+  color: #b8b8b8;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.4em;
+  width: 96%;
 }
 
 @media (min-width: 768px) {
@@ -318,13 +325,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.4em;
     width: 96%;
   }
-}
-.banner p {
-  color: #b8b8b8;
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  line-height: 1.4em;
-  width: 96%;
 }
 .banner button {
   color: #fff;
