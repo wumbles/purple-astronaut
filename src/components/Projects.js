@@ -14,16 +14,19 @@ export const Projects = () => {
       title: "Github User Finder",
       description: "React, Github API, Tailwind, DaisyUI",
       imgUrl: githubThumbnail,
+      link: "https://youtube.com",
     },
     {
       title: "Nucampsite",
       description: "React, Redux, Formik, Reactstrap",
       imgUrl: nucampThumbnail,
+      link: "https://youtube.com",
     },
     {
       title: "Lucas Project #3",
       description: "React",
       imgUrl: placeholderThumbnail,
+      link: "https://youtube.com",
     },
   ];
 
@@ -32,37 +35,40 @@ export const Projects = () => {
       title: "Chronic Migraine",
       description: "WordPress, Elementor, GA4",
       imgUrl: migraineThumbnail,
+      link: "https://www.research4migraine.com",
     },
     {
       title: "Spotlight RSV",
       description: "WordPress, Elementor, GA4",
       imgUrl: spotlightThumbnail,
+      link: "https://www.spotlightrsv.com",
     },
 
     {
       title: "Alzheimer's Disease",
       description: "WordPress, Elementor, GA4",
       imgUrl: memoryThumbnail,
+      link: "https://www.explorememorylane.com",
     },
   ];
 
-  const projectsThirdTab = [
-    {
-      title: "Misc",
-      description: "misc",
-      imgUrl: placeholderThumbnail,
-    },
-    {
-      title: "Misc",
-      description: "misc",
-      imgUrl: placeholderThumbnail,
-    },
-    {
-      title: "Misc",
-      description: "misc",
-      imgUrl: placeholderThumbnail,
-    },
-  ];
+  // const projectsThirdTab = [
+  //   {
+  //     title: "Misc",
+  //     description: "misc",
+  //     imgUrl: placeholderThumbnail,
+  //   },
+  //   {
+  //     title: "Misc",
+  //     description: "misc",
+  //     imgUrl: placeholderThumbnail,
+  //   },
+  //   {
+  //     title: "Misc",
+  //     description: "misc",
+  //     imgUrl: placeholderThumbnail,
+  //   },
+  // ];
 
   return (
     <section className="project" id="projects">
@@ -86,9 +92,9 @@ export const Projects = () => {
                 <Nav.Item>
                   <Nav.Link eventKey="second">WordPress</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Nav.Link eventKey="third">Misc.</Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
@@ -105,13 +111,13 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="third">
+                {/* <Tab.Pane eventKey="third">
                   <Row>
                     {projectsThirdTab.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
-                </Tab.Pane>
+                </Tab.Pane> */}
               </Tab.Content>
             </Tab.Container>
           </Col>
