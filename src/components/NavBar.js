@@ -74,12 +74,7 @@ export const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
             </div>
-            <button
-              className="vvd"
-              onClick={() =>
-                (window.location = "mailto:lucasmartinsen@gmail.com")
-              }
-            >
+            <button>
               <span>Let's Talk</span>
             </button>
           </span>

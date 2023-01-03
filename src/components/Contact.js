@@ -5,6 +5,8 @@ import TextField from "./TextField";
 import LoadingBar from "./LoadingBar";
 import { z } from "zod";
 import makeValidator from "../utils/makeValidator";
+import { FORM_ERROR } from "final-form";
+import { useSnackbar } from "notistack";
 
 const formSchema = z.object({
   name: z.string(),
@@ -15,16 +17,24 @@ const formSchema = z.object({
 const validate = makeValidator(formSchema);
 
 export const Contact = () => {
-  const handleSubmit = async (values) => {
-    await new Promise((resolve) => {
-      setTimeout(() => {
-        resolve();
-      }, 1500);
-    });
+  const { enqueueSnackbar } = useSnackbar();
 
-    console.log(values);
-
-    return;
+  const handleSubmit = async (values, form) => {
+    try {
+      const response = await fetch("https://formspree.io/f/xeqwqekd", {
+        method: "POST",
+        body: JSON.stringify(values),
+        headers: {
+          Accept: "application/json",
+        },
+      });
+      form.restart();
+      enqueueSnackbar("Message Sent!", { variant: "success" });
+      return;
+    } catch (err) {
+      console.log(err);
+      return { [FORM_ERROR]: "Something Went Wrong..." };
+    }
   };
 
   return (
