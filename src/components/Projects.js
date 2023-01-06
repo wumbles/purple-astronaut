@@ -14,19 +14,19 @@ export const Projects = () => {
       title: "Github User Finder",
       description: "React, Github API, Tailwind, DaisyUI",
       imgUrl: githubThumbnail,
-      link: "https://youtube.com",
+      link: "https://git-user-finder-pied.vercel.app",
     },
     {
       title: "Nucampsite",
       description: "React, Redux, Formik, Reactstrap",
       imgUrl: nucampThumbnail,
-      link: "https://youtube.com",
+      link: "https://nucamp-react.vercel.app",
     },
     {
       title: "Lucas Project #3",
       description: "React",
       imgUrl: placeholderThumbnail,
-      link: "https://youtube.com",
+      link: "https://downloadmoreram.com/",
     },
   ];
 
