@@ -46,7 +46,7 @@ export const Skills = () => {
                   infinite={true}
                   className="skill-slider"
                 >
-                  <div className="item">
+                  <div className="item skills-adjust">
                     <img src={reactLogo} alt="Image" />
                     <h5>React</h5>
                   </div>

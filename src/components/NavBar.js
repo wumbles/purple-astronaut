@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import lucasFace from "../assets/img/lucasFace.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
+import githubLogo from "../assets/img/github-mark-white.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -71,10 +72,19 @@ export const NavBar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="Linkedin Logo" />
               </a>
             </div>
-            <button>
+            <div className="social-icon">
+              <a
+                href="https://www.linkedin.com/in/lucas-martinsen/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={githubLogo} alt="Github Logo" id="github-navbar" />
+              </a>
+            </div>
+            <button onClick={() => window.location.replace("/#connect")}>
               <span>Let's Talk</span>
             </button>
           </span>
