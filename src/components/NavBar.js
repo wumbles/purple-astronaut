@@ -68,7 +68,7 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a
-                href="https://www.linkedin.com/in/lucas-martinsen/"
+                href="https://www.linkedin.com/in/lucas-martinsen"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -77,7 +77,7 @@ export const NavBar = () => {
             </div>
             <div className="social-icon">
               <a
-                href="https://www.linkedin.com/in/lucas-martinsen/"
+                href="https://github.com/wumbles"
                 target="_blank"
                 rel="noreferrer"
               >
