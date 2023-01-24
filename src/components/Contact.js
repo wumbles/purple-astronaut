@@ -7,7 +7,7 @@ import { z } from "zod";
 import makeValidator from "../utils/makeValidator";
 import { FORM_ERROR } from "final-form";
 import { useSnackbar } from "notistack";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 
 const formSchema = z.object({
   name: z.string(),
@@ -76,10 +76,10 @@ export const Contact = () => {
                         disabled={submitting}
                       />
                       <LoadingBar hidden={!submitting} />
-                      <ReCAPTCHA
+                      {/* <ReCAPTCHA
                         sitekey="6LdVlCAkAAAAAJa6uzQnZ_4Movs5L-qT9lEBeOO4"
                         onChange={onChange}
-                      />
+                      /> */}
                       <button
                         type="submit"
                         disabled={submitting}
