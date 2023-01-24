@@ -77,7 +77,7 @@ export const Contact = () => {
                       />
                       <LoadingBar hidden={!submitting} />
                       <ReCAPTCHA
-                        sitekey="6Le3iiAkAAAAAEbhauQvdufpiInhlw9tAvRwSLml"
+                        sitekey="6LdVlCAkAAAAAJa6uzQnZ_4Movs5L-qT9lEBeOO4"
                         onChange={onChange}
                       />
                       <button
