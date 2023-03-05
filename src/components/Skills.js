@@ -7,6 +7,7 @@ import reactLogo from "../assets/img/react-logo-img.png";
 import scssLogo from "../assets/img/scss-logo-img.png";
 import tsLogo from "../assets/img/typescript-logo-img.png";
 import tailwindLogo from "../assets/img/tailwind-logo-img.png";
+import muiLogo from "../assets/img/mui-logo-img.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -59,16 +60,20 @@ export const Skills = () => {
                     <h5>Tailwind</h5>
                   </div>
                   <div className="item">
+                    <img src={muiLogo} alt="Image" />
+                    <h5>Material UI</h5>
+                  </div>
+                  <div className="item">
                     <img src={nodeLogo} alt="Image" id="node-logo" />
                     <h5>Node</h5>
                   </div>
                   <div className="item">
-                    <img src={bootstrapLogo} alt="Image" />
-                    <h5>Bootstrap</h5>
-                  </div>
-                  <div className="item">
                     <img src={scssLogo} alt="Image" />
                     <h5>SCSS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={bootstrapLogo} alt="Image" />
+                    <h5>Bootstrap</h5>
                   </div>
                 </Carousel>
               </p>

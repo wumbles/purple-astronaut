@@ -5,11 +5,18 @@ import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
 import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
-import placeholderThumbnail from "../assets/img/placeholderThumbnail.png";
+import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
+  // React projects tab
   const projects = [
+    {
+      title: "MERN Dashboard",
+      description: "React, TypeScript, MUI, Google OAuth, Refine",
+      imgUrl: yarigaThumbnail,
+      link: "https://mern-dashboard-eight.vercel.app",
+    },
     {
       title: "Github User Finder",
       description: "React, Github API, Tailwind, DaisyUI",
@@ -17,19 +24,14 @@ export const Projects = () => {
       link: "https://git-user-finder-pied.vercel.app",
     },
     {
-      title: "Nucampsite",
+      title: "Nucampground",
       description: "React, Redux, Formik, Reactstrap",
       imgUrl: nucampThumbnail,
       link: "https://nucamp-react.vercel.app",
     },
-    {
-      title: "Lucas Project #3",
-      description: "React",
-      imgUrl: placeholderThumbnail,
-      link: "https://downloadmoreram.com/",
-    },
   ];
 
+  // WordPress projects tab
   const projectsSecondTab = [
     {
       title: "Chronic Migraine",
