@@ -12,8 +12,8 @@ export const Projects = () => {
   // React projects tab
   const projects = [
     {
-      title: "MERN Dashboard",
-      description: "React, TypeScript, MUI, Google OAuth, Refine",
+      title: "Yariga (MERN)",
+      description: "TypeScript, MUI, Refine, Google OAuth, Apex Charts",
       imgUrl: yarigaThumbnail,
       link: "https://mern-dashboard-eight.vercel.app",
     },
@@ -24,7 +24,7 @@ export const Projects = () => {
       link: "https://git-user-finder-pied.vercel.app",
     },
     {
-      title: "Nucampground",
+      title: "NuCampground",
       description: "React, Redux, Formik, Reactstrap",
       imgUrl: nucampThumbnail,
       link: "https://nucamp-react.vercel.app",

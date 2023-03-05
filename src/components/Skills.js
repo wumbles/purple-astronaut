@@ -60,10 +60,6 @@ export const Skills = () => {
                     <h5>Tailwind</h5>
                   </div>
                   <div className="item">
-                    <img src={muiLogo} alt="Image" />
-                    <h5>Material UI</h5>
-                  </div>
-                  <div className="item">
                     <img src={nodeLogo} alt="Image" id="node-logo" />
                     <h5>Node</h5>
                   </div>
@@ -74,6 +70,10 @@ export const Skills = () => {
                   <div className="item">
                     <img src={bootstrapLogo} alt="Image" />
                     <h5>Bootstrap</h5>
+                  </div>
+                  <div className="item">
+                    <img src={muiLogo} alt="Image" />
+                    <h5>Material UI</h5>
                   </div>
                 </Carousel>
               </p>
