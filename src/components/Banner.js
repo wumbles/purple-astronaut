@@ -48,7 +48,7 @@ export const Banner = () => {
               <br />
               <br />
               Down below, you can find links to projects I've worked on and
-              technologies I am the most familiar with.
+              technologies I'm familiar with.
               <br />
               <br />
               Thanks for visiting!
