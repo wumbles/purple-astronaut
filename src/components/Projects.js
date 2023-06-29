@@ -6,14 +6,15 @@ import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
 import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
 import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
+import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
   // React projects tab
   const projects = [
     {
-      title: "Yariga (MERN)",
-      description: "TypeScript, MUI, Refine, Google OAuth, Apex Charts",
+      title: "Yariga Properties",
+      description: "MERN stack, TypeScript, Google OAuth",
       imgUrl: yarigaThumbnail,
       link: "https://mern-dashboard-eight.vercel.app",
     },
@@ -24,10 +25,10 @@ export const Projects = () => {
       link: "https://git-user-finder-pied.vercel.app",
     },
     {
-      title: "NuCampground",
-      description: "React, Redux, Formik, Reactstrap",
-      imgUrl: nucampThumbnail,
-      link: "https://nucamp-react.vercel.app",
+      title: "Moon Phase",
+      description: "React, Rapid API, Lunarphase JS",
+      imgUrl: moonThumbnail,
+      link: "https://lucas-moon.vercel.app",
     },
   ];
 
