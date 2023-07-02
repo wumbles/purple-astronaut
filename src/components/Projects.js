@@ -38,7 +38,7 @@ export const Projects = () => {
       title: "Chronic Migraine",
       description: "WordPress, Elementor, GA4",
       imgUrl: migraineThumbnail,
-      link: "https://www.research4migraine.com",
+      link: "https://www.research4migraine-au.com",
     },
     {
       title: "Spotlight RSV",
