@@ -5,6 +5,7 @@ import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
 import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
+import msChatThumbnail from "../assets/img/ms-chat-thumbnail.png";
 import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -12,11 +13,17 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 export const Projects = () => {
   // React projects tab
   const projects = [
+    // {
+    //   title: "Yariga Properties",
+    //   description: "MERN stack, TypeScript, Google OAuth",
+    //   imgUrl: yarigaThumbnail,
+    //   link: "https://mern-dashboard-eight.vercel.app",
+    // },
     {
-      title: "Yariga Properties",
-      description: "MERN stack, TypeScript, Google OAuth",
-      imgUrl: yarigaThumbnail,
-      link: "https://mern-dashboard-eight.vercel.app",
+      title: "MS Chat Clone",
+      description: "Username: user Password: password",
+      imgUrl: msChatThumbnail,
+      link: "https://ms-chat-clone.vercel.app",
     },
     {
       title: "Github User Finder",
