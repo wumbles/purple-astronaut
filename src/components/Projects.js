@@ -13,23 +13,23 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 export const Projects = () => {
   // React projects tab
   const projects = [
-    // {
-    //   title: "Yariga Properties",
-    //   description: "MERN stack, TypeScript, Google OAuth",
-    //   imgUrl: yarigaThumbnail,
-    //   link: "https://mern-dashboard-eight.vercel.app",
-    // },
     {
-      title: "MS Chat Clone",
-      description: "Username: user Password: password",
-      imgUrl: msChatThumbnail,
-      link: "https://ms-chat-clone.vercel.app",
+      title: "Yariga Properties",
+      description: "MERN stack, TypeScript, Google OAuth",
+      imgUrl: yarigaThumbnail,
+      link: "https://mern-dashboard-eight.vercel.app",
     },
     {
       title: "Github User Finder",
       description: "React, Github API, Tailwind, DaisyUI",
       imgUrl: githubThumbnail,
       link: "https://git-user-finder-pied.vercel.app",
+    },
+    {
+      title: "MS Chat Clone",
+      description: "Username: user Password: password",
+      imgUrl: msChatThumbnail,
+      link: "https://ms-chat-clone.vercel.app",
     },
     {
       title: "Moon Phase",
