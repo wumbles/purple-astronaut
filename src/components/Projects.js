@@ -25,12 +25,12 @@ export const Projects = () => {
       imgUrl: githubThumbnail,
       link: "https://git-user-finder-pied.vercel.app",
     },
-    {
-      title: "MS Chat Clone",
-      description: "Username: user Password: password",
-      imgUrl: msChatThumbnail,
-      link: "https://ms-chat-clone.vercel.app",
-    },
+    // {
+    //   title: "MS Chat Clone",
+    //   description: "Username: user Password: password",
+    //   imgUrl: msChatThumbnail,
+    //   link: "https://ms-chat-clone.vercel.app",
+    // },
     {
       title: "Moon Phase",
       description: "React, Rapid API, Lunarphase JS",
@@ -49,14 +49,14 @@ export const Projects = () => {
     },
     {
       title: "Spotlight RSV",
-      description: "WordPress, Elementor, GA4",
+      description: "WordPress, Elementor",
       imgUrl: spotlightThumbnail,
       link: "https://www.spotlightrsv.com",
     },
 
     {
       title: "Alzheimer's Disease",
-      description: "WordPress, Elementor, GA4",
+      description: "WordPress, Elementor",
       imgUrl: memoryThumbnail,
       link: "https://www.explorememorylane.com",
     },
