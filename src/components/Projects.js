@@ -4,8 +4,8 @@ import githubThumbnail from "../assets/img/github-finder-thumbnail.png";
 import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
 import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
-import nucampThumbnail from "../assets/img/nucamp-project-thumbnail.png";
 import msChatThumbnail from "../assets/img/ms-chat-thumbnail.png";
+import edgewoodThumbnail from "../assets/img/edgewood-thumbnail.png";
 import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -53,12 +53,17 @@ export const Projects = () => {
       imgUrl: spotlightThumbnail,
       link: "https://www.spotlightrsv.com",
     },
-
+    // {
+    //   title: "Alzheimer's Disease",
+    //   description: "WordPress, Elementor",
+    //   imgUrl: memoryThumbnail,
+    //   link: "https://www.explorememorylane.com",
+    // },
     {
-      title: "Alzheimer's Disease",
-      description: "WordPress, Elementor",
-      imgUrl: memoryThumbnail,
-      link: "https://www.explorememorylane.com",
+      title: "Edgewood Golf",
+      description: "WordPress",
+      imgUrl: edgewoodThumbnail,
+      link: "https://edgewoodgolf.com",
     },
   ];
 
