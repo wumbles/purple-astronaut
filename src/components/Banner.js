@@ -40,15 +40,35 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              I'm 22 years old and currently reside in Utah. I've been studying
-              web development for 4+ years. I originally began working with the
-              WordPress platform professionally, and later attended a coding
-              bootcamp on my own time after I took interest in switching
-              technologies to React around 2 years ago.
+              Hi, I'm Lucas!
               <br />
               <br />
-              Down below, you can find links to projects I've worked on and
-              technologies I'm familiar with.
+              I'm 23 years old, speak Portuguese, and reside in Utah. I have
+              been studying web development for 4+ years; and I am currently
+              employed as a Jr. Developer on a team for the last 2 years.
+              <br />
+              <br />
+              Professionally, I originally started my web development journey
+              after taking a position doing WordPress sites for golf course
+              clients.
+              <br />
+              <br />
+              A year later, I attended a coding bootcamp on my own time to
+              broaden my knowledge a bit.
+              <br />
+              <br />
+              Soon after that, I took an interest in switching and learning
+              different technologies and more modern tools (like React for this
+              page)!
+              {/* around 2 years ago. I'm 22 years old and currently reside in Utah.
+              I've been studying web development for 4+ years. I originally
+              began working with the WordPress platform professionally, and
+              later attended a coding bootcamp on my own time after I took
+              interest in switching technologies to React around 2 years ago. */}
+              <br />
+              <br />
+              Down below, you can find links to projects I've worked on and get
+              an idea of technologies I'm familiar with.
               <br />
               <br />
               Thanks for visiting!
