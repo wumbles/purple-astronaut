@@ -32,7 +32,7 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to My Portfolio</span>
+            <span className="tagline">My Portfolio</span>
             <h1>
               {"Lucas Martinsen, "}
               <span className="wrap">
@@ -43,9 +43,13 @@ export const Banner = () => {
               Hi, I'm Lucas!
               <br />
               <br />
-              I'm 23 years old, speak Portuguese, and reside in Utah. I have
-              been studying web development for 4+ years; and I am currently
-              employed as a Jr. Developer on a team for the last 2 years.
+              I am 23 years old, speak Portuguese, and (physically) reside in
+              Utah.
+              <br />
+              <br />
+              I have been self-studying web development for 4+ years; and I am
+              currently employed as frontend Developer on a team for the last
+              2-3 years.
               <br />
               <br />
               Professionally, I originally started my web development journey
@@ -53,13 +57,15 @@ export const Banner = () => {
               clients.
               <br />
               <br />
-              A year later, I attended a coding bootcamp on my own time to
-              broaden my knowledge a bit.
+              A year later, I attended a coding bootcamp on my own time after
+              work to broaden my knowledge.
               <br />
               <br />
-              Soon after that, I took an interest in switching and learning
-              different technologies and more modern tools (like React for this
-              page)!
+              Immediately, I took an interest in trying out new tools and
+              switching to modern technologies.
+              <br />
+              <br />
+              (React was used for this page!)
               {/* around 2 years ago. I'm 22 years old and currently reside in Utah.
               I've been studying web development for 4+ years. I originally
               began working with the WordPress platform professionally, and

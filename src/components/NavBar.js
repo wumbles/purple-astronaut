@@ -85,7 +85,7 @@ export const NavBar = () => {
               </a>
             </div>
             <button onClick={() => window.location.replace("/#connect")}>
-              <span>Let's Talk</span>
+              <span>Let's Talk!</span>
             </button>
           </span>
         </Navbar.Collapse>

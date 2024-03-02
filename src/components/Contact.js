@@ -48,7 +48,7 @@ export const Contact = () => {
           </Col>
           <Col size={12} md={6}>
             <Row>
-              <h2 className="text-center">Get In Touch!</h2>
+              <h2 className="text-center">Get In Touch.</h2>
               <div className="d-flex justify-content-center">
                 <Form
                   onSubmit={handleSubmit}
@@ -85,7 +85,7 @@ export const Contact = () => {
                         disabled={submitting}
                         style={{ width: "100%" }}
                       >
-                        <span>Send me an email.</span>
+                        <span>Send me a message!</span>
                       </button>
                     </form>
                   )}
