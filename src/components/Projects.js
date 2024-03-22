@@ -42,13 +42,13 @@ export const Projects = () => {
   const projectsSecondTab = [
     {
       title: "Chronic Migraine",
-      description: "Thermo Fisher Scientific",
+      description: "Migraines",
       imgUrl: migraineThumbnail,
       link: "https://www.research4migraine-au.com",
     },
     {
       title: "Stop HIV-1",
-      description: "Thermo Fisher Scientific",
+      description: "HIV",
       imgUrl: hivThumbnail,
       link: "https://stophiv-1.com",
     },
