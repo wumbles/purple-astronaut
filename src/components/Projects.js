@@ -1,29 +1,34 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import githubThumbnail from "../assets/img/github-finder-thumbnail.png";
-import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
+// import spotlightThumbnail from "../assets/img/spotlightrsv-wp-thumbnail.png";
 import migraineThumbnail from "../assets/img/migraine-wp-thumbnail.png";
-import memoryThumbnail from "../assets/img/memorylane-wp-thumbnail.png";
-import msChatThumbnail from "../assets/img/ms-chat-thumbnail.png";
 import edgewoodThumbnail from "../assets/img/edgewood-thumbnail.png";
 import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import hivThumbnail from "../assets/img/hivThumbnail.png";
 
 export const Projects = () => {
   // React projects tab
   const projects = [
     {
-      title: "Yariga Properties",
-      description: "MERN stack, TypeScript, Google OAuth",
-      imgUrl: yarigaThumbnail,
-      link: "https://mern-dashboard-eight.vercel.app",
+      title: "Moon Phase",
+      description: "React, Rapid API",
+      imgUrl: moonThumbnail,
+      link: "https://lucas-moon.vercel.app",
     },
     {
       title: "Github User Finder",
-      description: "React, Github API, Tailwind, DaisyUI",
+      description: "React, Github API, TailwindCSS",
       imgUrl: githubThumbnail,
       link: "https://git-user-finder-pied.vercel.app",
+    },
+    {
+      title: "Yariga Properties",
+      description: "MERN, TypeScript, Google OAuth",
+      imgUrl: yarigaThumbnail,
+      link: "https://mern-dashboard-eight.vercel.app",
     },
     // {
     //   title: "MS Chat Clone",
@@ -31,28 +36,28 @@ export const Projects = () => {
     //   imgUrl: msChatThumbnail,
     //   link: "https://ms-chat-clone.vercel.app",
     // },
-    {
-      title: "Moon Phase",
-      description: "React, Rapid API, Lunarphase JS",
-      imgUrl: moonThumbnail,
-      link: "https://lucas-moon.vercel.app",
-    },
   ];
 
   // WordPress projects tab
   const projectsSecondTab = [
     {
       title: "Chronic Migraine",
-      description: "WordPress, Elementor, GA4",
+      description: "Thermo Fisher Scientific",
       imgUrl: migraineThumbnail,
       link: "https://www.research4migraine-au.com",
     },
     {
-      title: "Spotlight RSV",
-      description: "WordPress, Elementor",
-      imgUrl: spotlightThumbnail,
-      link: "https://www.spotlightrsv.com",
+      title: "Stop HIV-1",
+      description: "Thermo Fisher Scientific",
+      imgUrl: hivThumbnail,
+      link: "https://stophiv-1.com",
     },
+    // {
+    //   title: "Spotlight RSV",
+    //   description: "Thermo Fisher",
+    //   imgUrl: spotlightThumbnail,
+    //   link: "https://www.spotlightrsv.com",
+    // },
     // {
     //   title: "Alzheimer's Disease",
     //   description: "WordPress, Elementor",
@@ -61,11 +66,13 @@ export const Projects = () => {
     // },
     {
       title: "Edgewood Golf",
-      description: "WordPress",
+      description: "foreUP",
       imgUrl: edgewoodThumbnail,
       link: "https://edgewoodgolf.com",
     },
   ];
+
+  // Extra tab in case I want to expand project variations:
 
   // const projectsThirdTab = [
   //   {
