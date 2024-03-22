@@ -40,7 +40,7 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              Hi, I'm Lucas!
+              Hi, I'm Lucas.
               <br />
               <br />
               I am 23 years old, speak Portuguese, and (physically) reside in
