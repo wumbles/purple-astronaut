@@ -44,7 +44,7 @@ export const Banner = () => {
               <br />
               <br />
               I am 23 years old, speak Portuguese, and (physically) reside in
-              Utah.
+              Utah!
               <br />
               <br />
               I have been self-studying web development for 4+ years; and I am
