@@ -48,8 +48,8 @@ export const Banner = () => {
               <br />
               <br />
               I have been self-studying web development for 4+ years; and I am
-              currently employed as frontend Developer on a team for the last
-              2-3 years.
+              currently employed as frontend Developer on a team for the last 3
+              years.
               <br />
               <br />
               Professionally, I originally started my web development journey
