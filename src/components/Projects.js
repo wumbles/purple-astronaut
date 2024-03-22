@@ -19,16 +19,16 @@ export const Projects = () => {
       link: "https://lucas-moon.vercel.app",
     },
     {
-      title: "Github User Finder",
-      description: "React, Github API, TailwindCSS",
-      imgUrl: githubThumbnail,
-      link: "https://git-user-finder-pied.vercel.app",
-    },
-    {
       title: "Yariga Properties",
       description: "MERN, TypeScript, Google OAuth",
       imgUrl: yarigaThumbnail,
       link: "https://mern-dashboard-eight.vercel.app",
+    },
+    {
+      title: "Github User Finder",
+      description: "React, Github API, TailwindCSS",
+      imgUrl: githubThumbnail,
+      link: "https://git-user-finder-pied.vercel.app",
     },
     // {
     //   title: "MS Chat Clone",
@@ -45,6 +45,12 @@ export const Projects = () => {
       description: "Migraines",
       imgUrl: migraineThumbnail,
       link: "https://www.research4migraine-au.com",
+    },
+    {
+      title: "Edgewood Golf",
+      description: "foreUP",
+      imgUrl: edgewoodThumbnail,
+      link: "https://edgewoodgolf.com",
     },
     {
       title: "Stop HIV-1",
@@ -64,12 +70,6 @@ export const Projects = () => {
     //   imgUrl: memoryThumbnail,
     //   link: "https://www.explorememorylane.com",
     // },
-    {
-      title: "Edgewood Golf",
-      description: "foreUP",
-      imgUrl: edgewoodThumbnail,
-      link: "https://edgewoodgolf.com",
-    },
   ];
 
   // Extra tab in case I want to expand project variations:
