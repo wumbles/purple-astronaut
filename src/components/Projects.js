@@ -8,6 +8,7 @@ import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import hivThumbnail from "../assets/img/hivThumbnail.png";
+import heartweightThumbnail from "../assets/img/heartweightThumbnail.png";
 
 export const Projects = () => {
   // React projects tab
@@ -51,6 +52,12 @@ export const Projects = () => {
       description: "foreUP",
       imgUrl: edgewoodThumbnail,
       link: "https://edgewoodgolf.com",
+    },
+    {
+      title: "Heart Studies",
+      description: "BR-Cardiovascular",
+      imgUrl: heartweightThumbnail,
+      link: "https://estudoscoracaopeso.com",
     },
     {
       title: "Stop HIV-1",

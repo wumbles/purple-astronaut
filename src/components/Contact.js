@@ -7,7 +7,6 @@ import { z } from "zod";
 import makeValidator from "../utils/makeValidator";
 import { FORM_ERROR } from "final-form";
 import { useSnackbar } from "notistack";
-// import ReCAPTCHA from "react-google-recaptcha";
 
 const formSchema = z.object({
   name: z.string(),
