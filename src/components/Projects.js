@@ -9,6 +9,7 @@ import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import hivThumbnail from "../assets/img/hivThumbnail.png";
 import heartweightThumbnail from "../assets/img/heartweightThumbnail.png";
+import scotchpinesThumbnail from "../assets/img/scotchpines-thumbnail.png";
 
 export const Projects = () => {
   // React projects tab
@@ -64,6 +65,12 @@ export const Projects = () => {
       description: "HIV",
       imgUrl: hivThumbnail,
       link: "https://stophiv-1.com",
+    },
+    {
+      title: "Scotch Pines Golf",
+      description: "foreUP",
+      imgUrl: scotchpinesThumbnail,
+      link: "https://scotchpinesgolf.com",
     },
     // {
     //   title: "Spotlight RSV",
