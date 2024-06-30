@@ -8,6 +8,7 @@ import yarigaThumbnail from "../assets/img/yariga-project-thumbnail.png";
 import moonThumbnail from "../assets/img/moon-phase-thumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import hivThumbnail from "../assets/img/hivThumbnail.png";
+import rsvThumbnail from "../assets/img/rsvThumbnail.png";
 import heartweightThumbnail from "../assets/img/heartweightThumbnail.png";
 import scotchpinesThumbnail from "../assets/img/scotchpines-thumbnail.png";
 
@@ -72,12 +73,12 @@ export const Projects = () => {
       imgUrl: scotchpinesThumbnail,
       link: "https://scotchpinesgolf.com",
     },
-    // {
-    //   title: "Spotlight RSV",
-    //   description: "Thermo Fisher",
-    //   imgUrl: spotlightThumbnail,
-    //   link: "https://www.spotlightrsv.com",
-    // },
+    {
+      title: "Spotlight RSV",
+      description: "RSV",
+      imgUrl: rsvThumbnail,
+      link: "https://www.spotlightrsv.com",
+    },
     // {
     //   title: "Alzheimer's Disease",
     //   description: "WordPress, Elementor",
