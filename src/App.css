@@ -267,7 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  padding: 50px;
+  padding: 150px 50px;
   padding-top: 150px;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
@@ -421,7 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 400 px 0;
+  padding: 200px 0;
   position: relative;
   background-color: black;
 }
