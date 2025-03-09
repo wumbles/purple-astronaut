@@ -40,44 +40,38 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              Hi, I'm Lucas.
+              Hello!
               <br />
               <br />
-              I am 23 years old, speak Portuguese, and (physically) reside in
-              Utah!
+              I'm Lucas,
               <br />
               <br />
-              I have been self-studying web development for 4+ years; and I am
-              currently employed as frontend Developer on a team for the last 3
+              I am 24 years old, I speak Portuguese, and I (physically) reside
+              in Utah.
+              <br />
+              <br />
+              I have been self-studying web development for a decade and I've
+              been employed as a Frontend Developer on a team for the last 4+
               years.
               <br />
               <br />
-              Professionally, I originally started my web development journey
-              after taking a position doing WordPress sites for golf course
-              clients.
+              Professionally, I started my web development journey after I had
+              taken a position creating WordPress sites for golf course clients.
               <br />
               <br />
-              A year later, I attended a coding bootcamp on my own time after
-              work to broaden my knowledge.
-              <br />
-              <br />
-              Immediately, I took an interest in trying out new tools and
-              switching to modern technologies.
-              <br />
-              <br />
-              (React was used for this page!)
-              {/* around 2 years ago. I'm 22 years old and currently reside in Utah.
-              I've been studying web development for 4+ years. I originally
-              began working with the WordPress platform professionally, and
-              later attended a coding bootcamp on my own time after I took
-              interest in switching technologies to React around 2 years ago. */}
+              While I attended a coding bootcamp on my own time to enhance my
+              skills, I began working on a global marketing team as a Frontend
+              Developer helping to create new clinical trial websites.
               <br />
               <br />
               Down below, you can find links to projects I've worked on and get
-              an idea of technologies I'm familiar with.
+              an idea of technologies I'm familiar with. (React was used for
+              this page.)
               <br />
               <br />
-              Thanks for visiting!
+              Thank you for your interest!
+              <br />
+              <br />
             </p>
             {/* <button
               onClick={() =>
