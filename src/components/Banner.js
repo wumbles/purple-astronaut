@@ -43,25 +43,20 @@ export const Banner = () => {
               Hello!
               <br />
               <br />
-              I'm Lucas,
+              I am Lucas. I'm 24 years old and I (physically) reside in Utah!
               <br />
               <br />
-              I am 24 years old, I speak Portuguese, and I (physically) reside
-              in Utah.
+              Professionally, I started my web development journey after taking
+              a position creating WordPress sites for golf course owners.
               <br />
               <br />
-              I have been self-studying web development for a decade and I've
-              been employed as a Frontend Developer on a team for the last 4+
-              years.
-              <br />
-              <br />
-              Professionally, I started my web development journey after I had
-              taken a position creating WordPress sites for golf course clients.
-              <br />
-              <br />
-              While I attended a coding bootcamp on my own time to enhance my
+              While attending a bootcamp on my own time to enhance my coding
               skills, I began working on a global marketing team as a Frontend
-              Developer helping to create new clinical trial websites.
+              Developer creating new clinical trial recruitment websites.
+              <br />
+              <br />
+              I have been working on the same marketing team as a Frontend
+              Developer for the last 3+ years.
               <br />
               <br />
               Down below, you can find links to projects I've worked on and get
