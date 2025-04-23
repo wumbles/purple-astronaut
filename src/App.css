@@ -321,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.4em;
   width: 96%;
-  background: rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px #000;
 }
 
 @media (min-width: 768px) {
@@ -331,7 +331,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.4em;
     width: 96%;
-    background: none;
   }
 }
 .banner button {
