@@ -43,7 +43,7 @@ export const Banner = () => {
               Hello!
               <br />
               <br />
-              I am Lucas. I'm 24 years old and I (physically) reside in Utah!
+              I am Lucas. I am 25 years old and I (physically) reside in Utah!
               <br />
               <br />
               Professionally, I started my web development journey after taking
@@ -59,9 +59,9 @@ export const Banner = () => {
               Developer for the last 3+ years.
               <br />
               <br />
-              Down below, you can find links to projects I've worked on and get
-              an idea of technologies I'm familiar with. (React was used for
-              this page.)
+              Below, you can find links to projects I've worked on and get an
+              idea of technologies I'm familiar with. (React was used for this
+              page.)
               <br />
               <br />
               Thank you for your interest!
