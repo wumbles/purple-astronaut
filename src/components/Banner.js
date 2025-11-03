@@ -46,17 +46,19 @@ export const Banner = () => {
               I am Lucas. I am 25 years old and I (physically) reside in Utah!
               <br />
               <br />
-              Professionally, I started my web development journey after taking
-              a position creating WordPress sites for golf course owners.
+              Professionally, I embarked on my web development journey after
+              accepting a position creating WordPress sites for golf course
+              clients and resort owners.
               <br />
               <br />
-              While attending a bootcamp on my own time to enhance my coding
-              skills, I began working on a global marketing team as a Frontend
-              Developer creating new clinical trial recruitment websites.
+              While attending a React.js coding bootcamp on my own time to
+              deepen my coding skills, I began working on a global marketing
+              team as a Frontend WordPress Developer creating new clinical trial
+              recruitment websites.
               <br />
               <br />
-              I have been working on the same marketing team as a Frontend
-              Developer for the last 3+ years.
+              I have been working on the same marketing team as a frontend
+              developer for the last three and a half years.
               <br />
               <br />
               Below, you can find links to projects I've worked on and get an
@@ -64,7 +66,7 @@ export const Banner = () => {
               page.)
               <br />
               <br />
-              Thank you for your interest!
+              Thank you for checking out my portfoliio!
               <br />
               <br />
             </p>
