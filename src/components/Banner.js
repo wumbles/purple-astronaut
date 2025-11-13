@@ -66,7 +66,7 @@ export const Banner = () => {
               page.)
               <br />
               <br />
-              Thank you for checking out my portfoliio!
+              Thank you for checking out my portfolio!
               <br />
               <br />
             </p>
